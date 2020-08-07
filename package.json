@@ -1,0 +1,29 @@
+{
+  "name": "services.spacestation23.com",
+  "version": "0.1.0",
+  "description": "The web services powering SpaceStation23.",
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-html": "^6.0.2",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5"
+  },
+  "keywords": [
+    "spacestation23",
+    "boo daley",
+    "podcast"
+  ],
+  "main": "index.js",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tforster/services.spacestation23.com.git"
+  },
+  "author": "Troy Forster",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tforster/services.spacestation23.com/issues"
+  },
+  "homepage": "https://github.com/tforster/services.spacestation23.com#readme"
+}

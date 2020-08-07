@@ -1,0 +1,37 @@
+data: ${env:ALIAS_DATA}
+templates: ${env:ALIAS_TEMPLATES}
+destination: ${env:ALIAS_DESTINATION}
+
+################
+# Data Aliases #
+################
+
+data-fs:
+  type: filesystem
+  meta: ../../sorce/src/data
+
+data-s3:
+  type: s3
+  meta: s3://wp.spacestation23.com/${env:STAGE}/data
+  region: ca-central-1
+
+####################
+# Template Aliases #
+####################
+
+template-fs:
+  type: filesystem
+  path: ../../sorce/src
+
+#######################
+# Destination Aliases #
+#######################
+
+destination-fs:
+  type: filesystem
+  path: ./dist
+
+destination-s3:
+  type: s3
+  path: s3://www.stage.spacestation23.com
+  region: ca-central-1

@@ -1,0 +1,12 @@
+{
+  "name": "wp.services.spacestation23.com",
+  "version": "0.1.0",
+  "dependencies": {
+    "@tforster/webproducer": "git+ssh://git@github.com/tforster/webproducer.git#semver:v0.7.0"
+  },
+  "devDependencies": {
+    "serverless": "^1.78.1",
+    "serverless-dotenv-plugin": "^3.0.0",
+    "serverless-offline": "^6.5.0"
+  }
+}
